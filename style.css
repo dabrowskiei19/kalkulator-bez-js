@@ -1,0 +1,50 @@
+header {
+  text-align: center;
+  width: 100%;
+}
+main {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  width: 334px;
+  border: solid;
+  padding: 1em;
+  background: grey;
+}
+div {
+  padding: 2px;
+  width: 400px;
+  border: medium;
+}
+input {
+  border: solid;
+  border-radius: 1em;
+  font-size: 18px;
+  width: 80px;
+  height: 80px;
+  background-color: beige;
+}
+
+.dod,
+.odj,
+.mnoz,
+.dziel {
+  background: rgb(238, 234, 16);
+}
+input:hover {
+  background: white;
+  transition-duration: 0.1s;
+}
+.wynik {
+  border: solid;
+  border-radius: 1em;
+  font-size: 18px;
+  width: 325px;
+  height: 80px;
+  background-color: beige;
+}
+.wynik > div {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
